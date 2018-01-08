@@ -1,0 +1,1 @@
+All data to be stored here including CSS and JS file.

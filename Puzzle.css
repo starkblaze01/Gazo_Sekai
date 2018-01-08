@@ -1,0 +1,46 @@
+#puzzleBlock
+{
+  margin: auto;
+  width: 600px;
+  height: 600px;
+  border: 2px solid #000; 
+}
+
+.block{
+  height: 200px;
+  width: 200px;
+  float: left;
+  cursor: move;
+}
+
+#timer{
+  margin: auto;
+  margin-top: 100px;
+  width: 1000px;
+  height: 25px;
+  font-size: 20px;
+  text-align: center;
+}
+
+ul{
+  background-color: darkorange;
+  height: 58px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+li{
+  display: inline;
+  padding-top: 20px;
+}
+
+#v{
+  float: right;
+}

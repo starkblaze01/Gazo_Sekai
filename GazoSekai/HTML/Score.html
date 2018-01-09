@@ -26,6 +26,9 @@
     <script>
         {
             var name=localStorage.getItem( "wicked" );
+            if (100-name<0) {
+            	name = 100;
+            }
             document.getElementById('score').innerHTML ="Your score is " +(100-name);
         }
     </script>    

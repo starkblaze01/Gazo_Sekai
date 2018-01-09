@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <script src="../Static/Exit.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../Static/FrontPage.css">    
+    </head>
+ <body>
+    <nav>
+        <div class="nav-wrapper amber darken-3">
+            <a class="brand-logo"><B>GAZO SEKAI</B></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a class="exitbutton">Exit</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="row"></div><div class="row"></div><div class="row">
+
+    <div class="container">
+    <div class="center-align">
+        <div class="row">
+            <div class="card-panel amber darken-3"><font color="white" size="20px"><B>Memorize The Image!</B></font></div>
+        </div>  
+        <div class="row">
+            <div id="timer" style="background-color: darkorange"></div>
+            <script src="../Static/Timer.js"></script>
+            <script>
+            {
+                window.onload = CreateTimer("timer", 10);
+            }
+            </script>
+        </div>
+        <div class="row">  
+            <img src="../Static/main.jpg" height="500px" width="500px">
+        </div>    
+    </div>    
+    </div>   
+
+    <div class="row"></div><div class="row"></div><div class="row"></div><div class="row"></div><div class="row"></div><div class="row"></div> 
+
+    <footer class="page-footer amber darken-3" style="margin-bottom: 0;">
+        <div class="container">
+                      
+            <div class="row">
+                <div class="col s4 white-text"><a href="../../index.html">Home</a></div>
+                <div class="col s4 white-text"><a href="">Contacts</a></div>
+                <div class="col s4 white-text"><a href="">Star Github Repository</a></div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                ©gazo_sekai
+                <a class="grey-text text-lighten-4 right" href=""><i class="small material-icons">star</i></a>
+            </div>
+        </div>
+    </footer> 
+ </body>
+</html>

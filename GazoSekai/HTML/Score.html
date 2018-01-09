@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Results</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="../Static/Exit.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../Static/FrontPage.css"> 
+ </head>
+
+ <body background="../Static/puzzle_front.jpg">
+    <nav>
+        <div class="nav-wrapper amber darken-3">
+            <a href="#" class="brand-logo"><B>GAZO SEKAI</B></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+      	        <li><a href="../../index.html">Home</a></li>
+      	        <li><a class="exitbutton">Exit</a></li>
+            </ul>
+        </div>
+    </nav>
+     
+    <div id="home" style="width: 40%;height: 200px;background-color:darkorange ;margin-left: 30%;margin-top: 10%;border: 2px solid white;text-align: center">
+        <p id="score" style="font-size: 40px;font-weight: bolder;font-style: italic"></p>
+    </div>
+    <script>
+        {
+            var name=localStorage.getItem( "wicked" );
+            document.getElementById('score').innerHTML ="Your score is " +(100-name);
+        }
+    </script>    
+
+    <div class="row"></div><div class="row"></div><div class="row"></div><div class="row"></div><div class="row"></div><div class="row"></div>
+    <div class="row"></div><div class="row"></div><div class="row"></div><div class="row"></div><div class="row"></div><div class="row"></div>
+
+    <footer class="page-footer amber darken-3">
+        <div class="container">
+                      
+            <div class="row">
+                <div class="col s4 white-text"><a href="../../index.html">Home</a></div>
+                <div class="col s4 white-text"><a href="">Contacts</a></div>
+                <div class="col s4 white-text"><a href="">Star Github Repository</a></div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                ©gazo_sekai
+                <a class="grey-text text-lighten-4 right" href=""><i class="small material-icons">star</i></a>
+            </div>
+        </div>
+    </footer>
+ </body>
+</html>
